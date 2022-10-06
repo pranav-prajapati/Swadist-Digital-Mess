@@ -1,0 +1,131 @@
+@font-face{
+src: url("../fonts/Roboto-Thin.ttf");
+    font-family: Roboto;
+
+    src: url("../fonts/Karla/Karla-Bold.ttf");
+    font-family: Karla;
+}
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    margin: auto;
+    padding: 0px;
+
+}
+
+/* -----------------Section-1---------NAV-BAR------- */
+#nav-bar{
+    
+    top: 0%;
+    z-index: 10;
+    }
+
+   .navbar {
+    background-image: linear-gradient(to right, #02203d, #02203d);
+  }
+
+
+   .nav-link{
+    font-family: Roboto;
+   }
+   
+  
+   
+   
+   /* .navbar-nav li{
+       padding: 0 0;
+      
+       
+   } */
+ 
+
+
+   .navbar-nav li .link{
+       color: white !important;
+       font-weight: 400;
+       float: right;
+       text-align:left;
+   
+   }
+
+   .pl a:hover{
+       background-color: cornflowerblue;
+
+   }
+   .cl a{
+    background-color: cornflowerblue;
+   }
+
+ 
+
+   
+
+   .fa-bars{
+       color: white !important;
+       font-size: 30px;
+   }
+   
+   .navbar-toggler{
+       outline: none;
+   }
+
+   .nav-item a {
+       width: 120px;
+       
+       
+       
+   }
+
+
+   
+   /*-------------------------CARAOSEL------------------------------------*/
+
+  
+
+   .carousel-caption h1{
+       font-family: Karla;
+       
+   }
+
+
+
+   /*-------------------------CARD-BODY------------------------------------*/
+
+   .container h1{
+       text-align: center;
+       font-family:Roboto;
+       padding-top:20px;
+    
+   }
+
+
+   .card-body hr{
+    background-color:  slategrey;
+   }
+
+
+
+
+   label::before{
+       content: '';
+       animation: animate infinite 8s;
+   }
+
+   @keyframes animate{
+       0%{
+           content: 'HERE YOUR MENU';
+       }
+       20%{
+           content: 'SUGAR, SPICE AND EVERYTHING NICE';
+       }
+       40%{
+           content: 'ARE YOU HUNGRY ???';
+       }
+       80%{
+           content: 'ORDER YOUR FOOD NOW !!!';
+       }
+   }

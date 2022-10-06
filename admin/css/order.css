@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+		
+	font-family: 'Muli', sans-serif;
+
+}
+
+
+
+.jumbotron {
+	
+	border-radius:10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+
+	overflow: hidden;
+	
+	
+}
+
+.jumbotron h6 {
+	opacity: 0.8;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.jumbotron h5 {
+	letter-spacing: 1px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.course-preview {
+	background-color: #2A265F;
+	color: #fff;
+	padding: 30px;
+	
+}
+
+.course-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.course-info {
+	
+	padding: 30px;
+	position: relative;
+
+
+	
+}
+
+
+
+
+.btn {
+	
+	border: 0;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	background-color:skyblue;
+	
+}
+
+
+.img{
+
+	background-image:url(../image/banner.png);
+
+}
+
+
+
+
